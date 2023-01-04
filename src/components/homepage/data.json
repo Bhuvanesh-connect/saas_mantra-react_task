@@ -27,42 +27,42 @@
             {   
                 "icon":"fa fa-solid fa-object-group",
                 "name":"Minimal Design",
-                "description":"Lorem, ipsum dolor sit amet consectetur"
+                "description":"Lorem, ipsum dolor sit amet adipsien"
             },
             {   
                 "icon":"bi bi-rocket-takeoff-fill",
                 "name":"Rocket Fast",
-                "description":"Lorem, ipsum dolor sit amet consectetur"
+                "description":"Lorem, ipsum dolor sit amet adipsien"
             },
             {
                 "icon":"fa fa-solid fa-object-group",
                 "name":"Framework",
-                "description":"Lorem, ipsum dolor sit amet consectetur"
+                "description":"Lorem, ipsum dolor sit amet adipsien"
             },
             {
                 "icon":"fa fa-solid fa-image",
                 "name":"Style Guide",
-                "description":"Lorem, ipsum dolor sit amet consectetur"
+                "description":"Lorem, ipsum dolor sit amet adipsien"
             },
             {
                 "icon":"fa fa-solid fa-code",
                 "name":"CSS + SASS",
-                "description":"Lorem, ipsum dolor sit amet consectetur"
+                "description":"Lorem, ipsum dolor sit amet adipsien"
             },
             {
                 "icon":"fa fa-duotone fa-gear",
                 "name":"Customizable",
-                "description":"Lorem, ipsum dolor sit amet consectetur"
+                "description":"Lorem, ipsum dolor sit amet adipsien"
             },
             {
                 "icon":"fa fa-solid fa-image",
                 "name":"Modular Design",
-                "description":"Lorem, ipsum dolor sit amet consectetur"
+                "description":"Lorem, ipsum dolor sit amet adipsien"
             },
             {
                 "icon":"fa fa-solid fa-check",
                 "name":"HTML5 Valid",
-                "description":"Lorem, ipsum dolor sit amet consectetur"
+                "description":"Lorem, ipsum dolor sit amet adipsien"
             }
         ]
     }

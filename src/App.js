@@ -6,20 +6,28 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import 'font-awesome/css/font-awesome.min.css';
 import Homepage from './components/homepage/Homepage';
 import Topbar from './components/library/topbar/Topbar';
-import Footer from './components/library/footer/Footer';
-import Error from './components/library/Error';
+import PageNotFound from './components/library/404/PageNotFound';
+
+import { ToastContainer } from 'react-toastify'; //React Toastify
+import 'react-toastify/dist/ReactToastify.css';
+
+
 
 function App() {
   return (
     <div className="App">
         <BrowserRouter>
-            {/* <Topbar/> */}
+            <Topbar/>
             <Routes>
-                <Route path='/' element={<Homepage/>}/>
-                <Route path='*' element={<Error/>}/>
+                <Route path='/' index element={<Homepage/>}/>
+                <Route path='/home' element={<Homepage/>}/>
+                <Route path='*' element={<PageNotFound/>}/>
             </Routes>
-            <Footer/>
         </BrowserRouter>
+
+        <div>
+          <ToastContainer />
+        </div>
     </div>
   );
 }

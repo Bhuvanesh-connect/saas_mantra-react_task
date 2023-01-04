@@ -1,0 +1,22 @@
+.PageNotFound{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    background-color: #ebebeb;
+}
+.PageNotFound h2{
+    font-size: 100px;
+    margin-bottom: 0;
+}
+.PageNotFound p{
+    font-size: 60px;
+}
+
+@media screen and (max-width:768px){
+    .PageNotFound p{
+        font-size: 30px;
+    }
+}

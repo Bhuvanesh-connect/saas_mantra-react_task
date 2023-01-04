@@ -1,8 +1,6 @@
-.Homepage{
-
-}
+/*Plans Section*/
 .Homepage .Plans_Section{
-    background-color: #ebebeb;
+    background-color: #f8f9fa;
     padding: 80px 10px;
 }
 .Homepage .Plans_Section .main_heading{
@@ -23,12 +21,14 @@
 }
 .Homepage .Plans_Section .row_content .offerCard{
     max-width: 320px;
-    border: 1px solid #ffffff;
+    border: 0;
+    transition: 0.4s;
+    box-shadow: 1px 1px 5px #6c757d;
 }
-/* .Homepage .Plans_Section .row_content .offerCard:hover{
+.Homepage .Plans_Section .row_content .offerCard:hover{
     background-color: #1e1a3d;
     color: #ffffff;
-} */
+}
 .Homepage .Plans_Section .row_content .offerCard .card-body{
     padding-top: 20px;
     padding-bottom: 0;
@@ -48,13 +48,13 @@
     font-size: 14px;
     color: grey;
 }
-
 .Homepage .Plans_Section .row_content .offerCard .card-footer{
     background-color: transparent;
     border-top: 0;
     padding: 20px 0;
 }
 .Homepage .Plans_Section .row_content .offerCard .btn_startPlan{
+    display: inline-block;
     background-color: #ebebeb;
     border: 1px solid #ebebeb;
     color: #000000;
@@ -62,14 +62,16 @@
     width: 80%;
     max-width: 250px;
     font-weight: 600;
+    text-decoration: none;
+    padding: 10px;
 }
-/* .Homepage .Plans_Section .row_content .offerCard:hover .btn_startPlan:hover{
+.Homepage .Plans_Section .row_content .offerCard:hover .btn_startPlan:hover{
     background-color: #595cdf !important;
     color: #ffffff !important;
-} */
+}
 
 
-
+/*Features Section*/
 .Homepage .Features_Section{
     padding: 80px 10px;
 }
@@ -79,6 +81,8 @@
 .Homepage .Features_Section .content_row{
     max-width: 1100px;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
 .Homepage .Features_Section .content_row > div{
     display: flex;
@@ -109,23 +113,15 @@
 }
 
 
+/*Contact Section*/
 .Homepage .Contact_Section{
-   /* background-image: url(./bg.jpg); */
-   background-image: 
-    /* top, transparent red */
-    linear-gradient(
-      rgba(46, 31, 252, 0.45), 
-      rgba(68, 154, 252, 0.45)
-    ),
-    /* your image */
-    url(./bg.jpg);
+   background-image: linear-gradient(rgba(46, 31, 252, 0.45), rgba(68, 154, 252, 0.45)),url(./bg.jpg);
    background-repeat: no-repeat;
    background-size: cover;
    padding: 80px 10px;
    color: #ffffff;
 }
 .Homepage .Contact_Section .heading{
-    /* margin-bottom: 40px; */
     font-size: 40px;
     font-weight: 700;
 }
@@ -148,8 +144,9 @@
     border:0;
     height: 50px;
 }
-
-
+.Homepage .Contact_Section .btn_submit:hover{
+    background: rgb(0, 110, 255);
+}
 .line{
     color: rgb(255, 224, 85);
     border-top: 4px solid;

@@ -1,5 +1,5 @@
 import React from 'react';
-import {Button} from 'react-bootstrap';
+import {Link} from 'react-router-dom';
 
 function OfferCard(props) {
 
@@ -26,7 +26,7 @@ function OfferCard(props) {
                   </ul>
               </div>
               <div className="card-footer text-center">
-                  <Button className='btn_startPlan'>{props.data.button_name}</Button>
+                  <Link to="activate_plan" className='btn_startPlan'>{props.data.button_name}</Link>
               </div>
           </div>
     </div>
