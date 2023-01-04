@@ -1,0 +1,69 @@
+[
+    {
+        "plans":[
+            {
+                "category":"Free Forever",
+                "price":"Free",
+                "description":"Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+                "points":["Lorem, ipsum dolor sit","dolor sit amet consectetur","sit amet consectetur Lorem"],
+                "button_name":"Sign Up For Free"
+            },
+            {
+                "category":"For Teams",
+                "price":"$20",
+                "description":"harum incidunt, culpa, natus tempora magni facilis nemo",
+                "points":["dolor sit amet consectetur","sit amet consectetur Lorem","Lorem, ipsum dolor sit"],
+                "button_name":"Start 14-Day Trial"
+            },
+            {
+                "category":"For Enterprises",
+                "price":"$140",
+                "description":"taque dolorem laudantium? Id pariatur exercitationem",
+                "points":["sit amet consectetur Lorem","Lorem, ipsum dolor sit","dolor sit amet consectetur"],
+                "button_name":"Start 14-Day Trial"
+            }
+        ],
+        "features":[
+            {   
+                "icon":"fa fa-solid fa-object-group",
+                "name":"Minimal Design",
+                "description":"Lorem, ipsum dolor sit amet consectetur"
+            },
+            {   
+                "icon":"bi bi-rocket-takeoff-fill",
+                "name":"Rocket Fast",
+                "description":"Lorem, ipsum dolor sit amet consectetur"
+            },
+            {
+                "icon":"fa fa-solid fa-object-group",
+                "name":"Framework",
+                "description":"Lorem, ipsum dolor sit amet consectetur"
+            },
+            {
+                "icon":"fa fa-solid fa-book-open-cover",
+                "name":"Style Guide",
+                "description":"Lorem, ipsum dolor sit amet consectetur"
+            },
+            {
+                "icon":"fa fa-solid fa-code",
+                "name":"CSS + SASS",
+                "description":"Lorem, ipsum dolor sit amet consectetur"
+            },
+            {
+                "icon":"fa fa-duotone fa-gear",
+                "name":"Customizable",
+                "description":"Lorem, ipsum dolor sit amet consectetur"
+            },
+            {
+                "icon":"fa fa-solid fa-image",
+                "name":"Modular Design",
+                "description":"Lorem, ipsum dolor sit amet consectetur"
+            },
+            {
+                "icon":"fa fa-solid fa-check",
+                "name":"HTML5 Valid",
+                "description":"Lorem, ipsum dolor sit amet consectetur"
+            }
+        ]
+    }
+]

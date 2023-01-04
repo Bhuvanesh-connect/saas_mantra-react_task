@@ -1,0 +1,160 @@
+.Homepage{
+
+}
+.Homepage .Plans_Section{
+    background-color: #ebebeb;
+    padding: 80px 10px;
+}
+.Homepage .Plans_Section .main_heading{
+    margin-bottom: 60px;
+    font-weight: 600;
+    font-family: 'Roboto Serif', serif;
+}
+.Homepage .Plans_Section .row_content{
+    display: flex;
+    justify-content: center;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.Homepage .Plans_Section .row_content > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Homepage .Plans_Section .row_content .offerCard{
+    max-width: 320px;
+    border: 1px solid #ffffff;
+}
+/* .Homepage .Plans_Section .row_content .offerCard:hover{
+    background-color: #1e1a3d;
+    color: #ffffff;
+} */
+.Homepage .Plans_Section .row_content .offerCard .card-body{
+    padding-top: 20px;
+    padding-bottom: 0;
+
+    padding: 20px 30px 0 30px;
+}
+.Homepage .Plans_Section .row_content .offerCard .category{
+    color: grey;
+}
+.Homepage .Plans_Section .row_content .offerCard .price{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 15px;
+    font-family: 'Roboto Serif', serif;
+}
+.Homepage .Plans_Section .row_content .offerCard .price span{
+    font-size: 14px;
+    color: grey;
+}
+
+.Homepage .Plans_Section .row_content .offerCard .card-footer{
+    background-color: transparent;
+    border-top: 0;
+    padding: 20px 0;
+}
+.Homepage .Plans_Section .row_content .offerCard .btn_startPlan{
+    background-color: #ebebeb;
+    border: 1px solid #ebebeb;
+    color: #000000;
+    border-radius: 24px;
+    width: 80%;
+    max-width: 250px;
+    font-weight: 600;
+}
+/* .Homepage .Plans_Section .row_content .offerCard:hover .btn_startPlan:hover{
+    background-color: #595cdf !important;
+    color: #ffffff !important;
+} */
+
+
+
+.Homepage .Features_Section{
+    padding: 80px 10px;
+}
+.Homepage .Features_Section .feature{
+    max-width: 250px;
+}
+.Homepage .Features_Section .content_row{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.Homepage .Features_Section .content_row > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Homepage .Features_Section .feature .grey_circle{
+    background-color: #f8f8f8;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.Homepage .Features_Section .feature .heading{
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+.Homepage .Features_Section .feature .description{
+    font-size: 17px;
+    font-weight: 400;
+    color: rgb(179, 179, 179);
+    margin-top: 10px;
+    line-height: 28px;
+}
+
+
+.Homepage .Contact_Section{
+   /* background-image: url(./bg.jpg); */
+   background-image: 
+    /* top, transparent red */
+    linear-gradient(
+      rgba(46, 31, 252, 0.45), 
+      rgba(68, 154, 252, 0.45)
+    ),
+    /* your image */
+    url(./bg.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 80px 10px;
+   color: #ffffff;
+}
+.Homepage .Contact_Section .heading{
+    /* margin-bottom: 40px; */
+    font-size: 40px;
+    font-weight: 700;
+}
+.Homepage .Contact_Section .content_row{
+    display: flex;
+    justify-content: center;
+}
+.Homepage .Contact_Section .content_row input{
+    height: 50px;
+    background-color: #ffffffe5;
+    border: 2px solid #ffffff;
+}
+.Homepage .Contact_Section .content_row input::placeholder{
+    color: grey;
+}
+.Homepage .Contact_Section .btn_submit{
+    width: 200px;
+    margin: 40px auto 0 auto;
+    background: linear-gradient(145deg, #55c6f3 0%, #0dcaf0 58%);
+    border:0;
+    height: 50px;
+}
+
+
+.line{
+    color: rgb(255, 224, 85);
+    border-top: 4px solid;
+    border-radius: 20px;
+    opacity: 1;
+    width: 100px;
+    margin: 0 auto;
+}
