@@ -115,7 +115,7 @@
 
 /*Contact Section*/
 .Homepage .Contact_Section{
-   background-image: linear-gradient(rgba(46, 31, 252, 0.45), rgba(68, 154, 252, 0.45)),url(./bg.jpg);
+   background-image: linear-gradient(rgba(46, 31, 252, 0.45), rgba(68, 154, 252, 0.45)),url(./contact_bg.jpg);
    background-repeat: no-repeat;
    background-size: cover;
    padding: 80px 10px;
