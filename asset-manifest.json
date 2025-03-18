@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/saas_mantra-react_task/static/css/main.95bdf264.css",
-    "main.js": "/saas_mantra-react_task/static/js/main.8be49e83.js",
+    "main.js": "/saas_mantra-react_task/static/js/main.1e92126a.js",
     "static/js/787.b3124f7e.chunk.js": "/saas_mantra-react_task/static/js/787.b3124f7e.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/saas_mantra-react_task/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/contact_bg.jpg": "/saas_mantra-react_task/static/media/contact_bg.fa387569a3ceec70fff3.jpg",
@@ -13,11 +13,11 @@
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/saas_mantra-react_task/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "index.html": "/saas_mantra-react_task/index.html",
     "main.95bdf264.css.map": "/saas_mantra-react_task/static/css/main.95bdf264.css.map",
-    "main.8be49e83.js.map": "/saas_mantra-react_task/static/js/main.8be49e83.js.map",
+    "main.1e92126a.js.map": "/saas_mantra-react_task/static/js/main.1e92126a.js.map",
     "787.b3124f7e.chunk.js.map": "/saas_mantra-react_task/static/js/787.b3124f7e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.95bdf264.css",
-    "static/js/main.8be49e83.js"
+    "static/js/main.1e92126a.js"
   ]
 }
